@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ranger's Web Calculator</title>
+  <meta name="description" content="Ranger's Web Calculator">
+  <meta name="author" content="Ranger Paul Jones">
+  <link rel="stylesheet" href="main.css?v=1.0">
+  <script src="main.js"></script>
+
+</head>
+
+<body>
+  <div class="section">
+    <div class="section">
+      <label for="value1">First Number</label>
+      <input id="value1" name="value1" type="number" value="23" />
+    </div>
+    <div class="section">
+      <label for="value2">Second Number</label>
+      <input id="value2" name="value2" type="number" value="23" />
+    </div>
+
+    <div class="section equation-buttons">
+      <button id="add" onclick="add()">+</button>
+      <button id="multiply" onclick="multiply()">x</button>
+      <button id="divide" onclick="divide()">/</button>
+      <button id="subtract" onclick="subtract()">-</button>
+    </div>
+    <div class="section answer">
+      Answer: <span id="answer">445</span>
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>
